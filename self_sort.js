@@ -9,7 +9,7 @@ let isOrganizing = false;
 window.setTimeout(() => (isOrganizing = true), 2000);
 
 function setup() {
-  createCanvas(720, 480);
+  createCanvas(504, 336);
   colorMode(HSB);
 
   cellSize = gcd(width, height) / subdivision;
